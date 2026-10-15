@@ -1,0 +1,402 @@
+[
+  {
+    "dataset": "cora",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "cora",
+    "seed": 2025,
+    "split_id": 0
+  },
+  {
+    "dataset": "cora",
+    "seed": 2026,
+    "split_id": 0
+  },
+  {
+    "dataset": "cora",
+    "seed": 2027,
+    "split_id": 0
+  },
+  {
+    "dataset": "cora",
+    "seed": 2028,
+    "split_id": 0
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 2025,
+    "split_id": 0
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 2026,
+    "split_id": 0
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 2027,
+    "split_id": 0
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 2028,
+    "split_id": 0
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 2025,
+    "split_id": 0
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 2026,
+    "split_id": 0
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 2027,
+    "split_id": 0
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 2028,
+    "split_id": 0
+  },
+  {
+    "dataset": "computers",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "computers",
+    "seed": 2025,
+    "split_id": 0
+  },
+  {
+    "dataset": "computers",
+    "seed": 2026,
+    "split_id": 0
+  },
+  {
+    "dataset": "computers",
+    "seed": 2027,
+    "split_id": 0
+  },
+  {
+    "dataset": "computers",
+    "seed": 2028,
+    "split_id": 0
+  },
+  {
+    "dataset": "photo",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "photo",
+    "seed": 2025,
+    "split_id": 0
+  },
+  {
+    "dataset": "photo",
+    "seed": 2026,
+    "split_id": 0
+  },
+  {
+    "dataset": "photo",
+    "seed": 2027,
+    "split_id": 0
+  },
+  {
+    "dataset": "photo",
+    "seed": 2028,
+    "split_id": 0
+  },
+  {
+    "dataset": "cs",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "cs",
+    "seed": 2025,
+    "split_id": 0
+  },
+  {
+    "dataset": "cs",
+    "seed": 2026,
+    "split_id": 0
+  },
+  {
+    "dataset": "cs",
+    "seed": 2027,
+    "split_id": 0
+  },
+  {
+    "dataset": "cs",
+    "seed": 2028,
+    "split_id": 0
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2025,
+    "split_id": 1
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2026,
+    "split_id": 2
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2027,
+    "split_id": 3
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2028,
+    "split_id": 4
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2029,
+    "split_id": 5
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2030,
+    "split_id": 6
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2031,
+    "split_id": 7
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2032,
+    "split_id": 8
+  },
+  {
+    "dataset": "roman-empire",
+    "seed": 2033,
+    "split_id": 9
+  },
+  {
+    "dataset": "questions",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "questions",
+    "seed": 2025,
+    "split_id": 1
+  },
+  {
+    "dataset": "questions",
+    "seed": 2026,
+    "split_id": 2
+  },
+  {
+    "dataset": "questions",
+    "seed": 2027,
+    "split_id": 3
+  },
+  {
+    "dataset": "questions",
+    "seed": 2028,
+    "split_id": 4
+  },
+  {
+    "dataset": "questions",
+    "seed": 2029,
+    "split_id": 5
+  },
+  {
+    "dataset": "questions",
+    "seed": 2030,
+    "split_id": 6
+  },
+  {
+    "dataset": "questions",
+    "seed": 2031,
+    "split_id": 7
+  },
+  {
+    "dataset": "questions",
+    "seed": 2032,
+    "split_id": 8
+  },
+  {
+    "dataset": "questions",
+    "seed": 2033,
+    "split_id": 9
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2025,
+    "split_id": 1
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2026,
+    "split_id": 2
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2027,
+    "split_id": 3
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2028,
+    "split_id": 4
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2029,
+    "split_id": 5
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2030,
+    "split_id": 6
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2031,
+    "split_id": 7
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2032,
+    "split_id": 8
+  },
+  {
+    "dataset": "minesweeper",
+    "seed": 2033,
+    "split_id": 9
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2025,
+    "split_id": 1
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2026,
+    "split_id": 2
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2027,
+    "split_id": 3
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2028,
+    "split_id": 4
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2029,
+    "split_id": 5
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2030,
+    "split_id": 6
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2031,
+    "split_id": 7
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2032,
+    "split_id": 8
+  },
+  {
+    "dataset": "amazon-ratings",
+    "seed": 2033,
+    "split_id": 9
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2024,
+    "split_id": 0
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2025,
+    "split_id": 1
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2026,
+    "split_id": 2
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2027,
+    "split_id": 3
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2028,
+    "split_id": 4
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2029,
+    "split_id": 5
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2030,
+    "split_id": 6
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2031,
+    "split_id": 7
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2032,
+    "split_id": 8
+  },
+  {
+    "dataset": "tolokers",
+    "seed": 2033,
+    "split_id": 9
+  }
+]

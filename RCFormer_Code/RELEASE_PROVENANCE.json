@@ -1,0 +1,193 @@
+{
+  "frozen_core_sha256": {
+    "THIRD_PARTY_LICENSES/DUALFormer-MIT.txt": "fe8114f65fa8c6edccff7c0f642ffdb2619d01dafa15168de5c93d84d013f650",
+    "config.py": "cff265e09ea60770ff8576657846f774f07d80ca5c6d65193bc596348d232d94",
+    "data/__init__.py": "71960a2f84d3b125852cc8254eb50af62b7d87a53da2dfb94408c3fb3f1046b3",
+    "data/dataset_loader.py": "61411357c1c17cdbbbddc4dc46d1ef748caa3d2113b539e4fa2290b7f9a25dff",
+    "data/preprocessing.py": "1878bc4bf984da0d7b62d7e33c0772279ac009b603ec69b8cdcce515e410a545",
+    "data/split.py": "0e55b29acf114b997f76a413d485a6b7d8dfd926d7567b520c6026695a081e34",
+    "evaluate.py": "b75e388703d132a89eed9f84d35a296fe9d62e3e883d913e1df52acdc13036a9",
+    "main.py": "36bac6f100ed5024e17f1888a2f67e3aaa27709d1f4d9ee884df7e8893eb8a1f",
+    "models/__init__.py": "0dc2e920cfc595a26c2f59238d9c0a96867013971650c50846b7462752efb943",
+    "models/fagcn_local.py": "205f6626fb3560abdf1565ea592574881d9bd691bc8e67ca91f43e251106b643",
+    "models/optbasis_local.py": "203164099ab0cb84636853e2b31c4f23d6d1e74274a7b1b86f3c6b426e645ad7",
+    "models/rcformer.py": "b554b65cb2d83e5b80b21de20b905d4a45f191f40419af278d3a4165bf2adb1f",
+    "models/sgc.py": "336c397c829c9fb83f362afe7a51a7e402238e53bcd60a24f9e917c8961a9535",
+    "models/transconv.py": "4d0c7f3b16dadd3040f2c5860e29d043c9c98a9b807f5de0a2e45e6522835497",
+    "optimization/__init__.py": "ec4e915c060e51471d4a785370f6a8d0b1851baa2bfdc6a28b186cf74bbf8be1",
+    "optimization/safe_qk.py": "0af8646a453331fe03820aef6d6aa9d738d484258899c4f33793ff6e25454f86",
+    "provenance.py": "219defcb88c4fb1ccb9a8df41fe9220cc268d75404506504f67a3c4a36a23cd9",
+    "regularization/__init__.py": "a9294a4a8581cae335dcbcceb035226a9b856f708acf98659244674b162483a5",
+    "regularization/gaussian_consistency.py": "38b0e46ac65c527fcca1de7f284c47ea7516e6325a62fb2697996a1f3b8eb1da",
+    "requirements.txt": "d812e6e00405e92cd10d1193a977d37acb5174c8889ac73d707331b9993247c8",
+    "selector/__init__.py": "3377307cff325878d589c24799f4c7b704efe57013badea7a9719e8139498897",
+    "selector/rc_v2.py": "fc156e0059703db82487a1d2e446f5cd103fdb805f203fd5616868876d5f055b",
+    "selector/sc_efficient.py": "479db56df8859317230bfbede13c60f77613adccb45f4dbc6118d2f5cf42ccc9",
+    "selector/selector_audit.py": "1a7de5c25fc7ca94b7dd76fd3c780f3775fdf7930fcb044c676fafd960f2e985",
+    "selector/selector_metrics.py": "cf28d77b918ed7603ef58471d03585b11fc3725e76a1bb4a057e8fc429430c8b",
+    "selector/structural_statistics.py": "aa38ebc2c0ccf935e4e0aef1142252ca4da713342a5af6358872adf5dc2ad3c2",
+    "shared_bank.py": "cdfd24a9410f26b1ec3e5e92fb6e1455e256d86a8c893a6306a5bfec1298503d",
+    "train.py": "9687397882cb7e1b2f08cdd0c3b28bc3ae874cb748de6a7470469396ed94dd04",
+    "training/__init__.py": "49ab24483bf8cb4894a4ddb33d11a18621223c7d27ab5c2663bf2235584e6bd7",
+    "training/early_stopping.py": "2dee4641b11c67f0177c5294f83bb937a515a883a8728056030ba7a73c9357ac",
+    "training/evaluator.py": "b88cf664562c5b659537c7efe8fbcf34d3c59b2f1fa8fe4252093044d544d05e",
+    "training/losses.py": "7ee334216570f2568c6d22ff179631024d8f4a1d297557e0de5c817ee1fa09f9",
+    "training/trainer.py": "24c99619fdc3e07c9098c6bf6f6a5f9be56cd1e5a21e47536b5cc6baa3fb3863"
+  },
+  "historical_results": "Recorded V1 and aligned V2 results are retained with their original source fingerprints; no experiments were rerun to generate this release",
+  "pruned_core_files": [
+    "data/preprocessing.py",
+    "models/sgc.py",
+    "optimization/safe_qk.py"
+  ],
+  "pruning": {
+    "data/preprocessing.py": "Remove unused row-normalization and first-mask-column helpers",
+    "models/sgc.py": "Remove unused compatibility-only SGCStack",
+    "optimization/safe_qk.py": "Remove the unused alternative polynomial; preserve the executed polar path"
+  },
+  "reference_backbone_fingerprint": "d1c0f2182145a4eb72cfa7b95734172ecc95aa2f7f041d5db656ae4ff382844f",
+  "release": "2026-10-13",
+  "source_identity": "This distribution is a pruned derivative, not the historical full-workspace source hash",
+  "table_exports": {
+    "additional_fits_260.csv": {
+      "input_sha256": "2f04bef73352d59cd10af12577dba031ab66f925e04c64d28e2ad9750ec9f35e",
+      "removed_columns": [
+        "path"
+      ],
+      "rows": 260
+    },
+    "baseline_cells_176.csv": {
+      "input_sha256": "1248c1fb236ed0ee576f194b9c504c7fb82ea9a554042fdd6b96f24788ddb2af",
+      "removed_columns": [],
+      "rows": 176
+    },
+    "baseline_execution_metadata_1200.csv": {
+      "input_sha256": "1085c43fac18a916da1b416e0a6498b51feaa464841bee7bb3f80c5385936b11",
+      "removed_columns": [],
+      "rows": 1200
+    },
+    "baseline_recipes_165.csv": {
+      "input_sha256": "514a94dbff8774bae4e5f2ec3c01c3b541f031cc9bdb53faed3cab7c17af92ae",
+      "removed_columns": [],
+      "rows": 165
+    },
+    "component_tests_22.csv": {
+      "input_sha256": "51b87384cd996169701488a13da04fb8c71db1379b8fc44c4c7333e52446631a",
+      "removed_columns": [],
+      "rows": 22
+    },
+    "dataset_metadata_11.csv": {
+      "input_sha256": "916d15855559e66bbecc131b4e4f92436b33f2203c01452beecdbd1ce92ba728",
+      "removed_columns": [],
+      "rows": 11
+    },
+    "gaussian_retention_11.csv": {
+      "input_sha256": "8f915cc79a0fa7233a97e2cdc8507c8b29b62c22bb9dbba7c7ca3e0c588979cd",
+      "removed_columns": [],
+      "rows": 11
+    },
+    "gaussian_tests_11.csv": {
+      "input_sha256": "cb18b87ac4106a4d3d37091cec6639bd3eaa833257d633a3e139017941ad01d9",
+      "removed_columns": [],
+      "rows": 11
+    },
+    "independent_repartition_80.csv": {
+      "input_sha256": "bd434ab6aa8b216b12bfa6ce4c9f2e04a93574ba576432b7d5fde1c3ad9ecae9",
+      "removed_columns": [],
+      "rows": 80
+    },
+    "matched_polar_tests_11.csv": {
+      "input_sha256": "c8a93bca696b0a0af1be3fb1248e4135790ee45c973eb3098cd9dbad2c6c0a34",
+      "removed_columns": [],
+      "rows": 11
+    },
+    "method_ranks_16.csv": {
+      "input_sha256": "5bec0272d8d484639c8e5920a9d63a4bb18fce1c4e5a085c31e9b029027d13ca",
+      "removed_columns": [],
+      "rows": 16
+    },
+    "per_run_1680.csv": {
+      "input_sha256": "bb4e6b90b77b2c7758d042388ca3c882af3151fc3aced8fac692bb1f470885cb",
+      "removed_columns": [
+        "path"
+      ],
+      "rows": 1680
+    },
+    "perturbation_conditions_480.csv": {
+      "input_sha256": "a534c0718c8bb8af5f4e13e76eca81ffee6a7a1e7bbf5c57518f9a3828574306",
+      "removed_columns": [],
+      "rows": 480
+    },
+    "perturbation_draws_2400.csv": {
+      "input_sha256": "51208adb62caf5da9b37c60e47c4ea42afd2fea0c097654d1bb39352e673999b",
+      "removed_columns": [],
+      "rows": 2400
+    },
+    "perturbation_tests_33.csv": {
+      "input_sha256": "39fed7ef1bdf34fd74f8bfdef97586fc9559f9694bd7f78f42a6a6de5841e52e",
+      "removed_columns": [],
+      "rows": 33
+    },
+    "policy_diagnostics_480.csv": {
+      "input_sha256": "a5ff084b1877c1173039de55565b3802325292fb980108c4c73cf6023b2ad3fb",
+      "removed_columns": [],
+      "rows": 480
+    },
+    "profiles_240.csv": {
+      "input_sha256": "80b33f2ba7e95d82aa10b1bd2f62623daeeb959ea029e6fc3b3904c6ab942509",
+      "removed_columns": [
+        "checkpoint_path"
+      ],
+      "rows": 240
+    },
+    "scope_conditions_225.csv": {
+      "input_sha256": "bf595bb6379a23116a3f09d81cea810ca09b395f850f57a0e9c39155928428c0",
+      "removed_columns": [
+        "path"
+      ],
+      "rows": 225
+    },
+    "scope_tests_24.csv": {
+      "input_sha256": "2e6f4fdb32424bc5de63325ed7a2685b9853807021d1a3ddc2dc6d03d603e525",
+      "removed_columns": [],
+      "rows": 24
+    },
+    "selection_diagnostics_80.csv": {
+      "input_sha256": "384d301f80d7bc3f0b6256718409ae1fe5d4b5efca75a7e5fff2b1146dfdbf59",
+      "removed_columns": [],
+      "rows": 80
+    }
+  },
+  "unchanged_core_files": [
+    "THIRD_PARTY_LICENSES/DUALFormer-MIT.txt",
+    "config.py",
+    "data/__init__.py",
+    "data/dataset_loader.py",
+    "data/split.py",
+    "evaluate.py",
+    "main.py",
+    "models/__init__.py",
+    "models/fagcn_local.py",
+    "models/optbasis_local.py",
+    "models/rcformer.py",
+    "models/transconv.py",
+    "optimization/__init__.py",
+    "provenance.py",
+    "regularization/__init__.py",
+    "regularization/gaussian_consistency.py",
+    "requirements.txt",
+    "selector/__init__.py",
+    "selector/rc_v2.py",
+    "selector/sc_efficient.py",
+    "selector/selector_audit.py",
+    "selector/selector_metrics.py",
+    "selector/structural_statistics.py",
+    "shared_bank.py",
+    "train.py",
+    "training/__init__.py",
+    "training/early_stopping.py",
+    "training/evaluator.py",
+    "training/losses.py",
+    "training/trainer.py"
+  ]
+}

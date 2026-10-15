@@ -1,0 +1,9 @@
+{
+  "gaussian_consistency": {
+    "enabled": true
+  },
+  "method": "sc_full",
+  "safe_qk": {
+    "enabled": true
+  }
+}
